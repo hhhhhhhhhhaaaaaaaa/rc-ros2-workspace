@@ -1,0 +1,25 @@
+# colcon 构建产物：可由 src/ 完全再生
+build/
+install/
+log/
+
+# 本地 Python 环境
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器缓存
+.vscode/
+.idea/
+
+# 模型权重与录制文件（体积大，走备份/Release）
+*.pt
+*.onnx
+*.engine
+*.mp4
+*.avi
+
+.DS_Store
+Thumbs.db

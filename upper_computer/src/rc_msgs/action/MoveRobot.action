@@ -1,0 +1,7 @@
+bool start
+---
+bool success
+---
+bool is_running
+geometry_msgs/Point goal
+geometry_msgs/Twist goal_vel

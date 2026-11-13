@@ -1,0 +1,16 @@
+# 源码与 CubeMX/Keil 配置统一 LF
+*.c text eol=lf
+*.h text eol=lf
+*.s text eol=lf
+*.md text eol=lf
+*.ioc text eol=lf
+*.mxproject text eol=lf
+*.uvprojx text eol=lf
+*.uvoptx text eol=lf
+*.sct text eol=lf
+*.dbgconf text eol=lf
+
+# 二进制资产
+*.hex binary
+*.lib binary
+*.a binary

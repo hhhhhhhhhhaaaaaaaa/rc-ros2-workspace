@@ -1,0 +1,27 @@
+# CubeMX 生成的第三方库：用 rostele.ioc 重新 Generate Code 即可
+Drivers/
+
+# Keil MDK 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.htm
+*.lnp
+*.dep
+*.lst
+*.bak
+*.iex
+*.sbr
+*.tra
+*.hex
+*.uvguix.*
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

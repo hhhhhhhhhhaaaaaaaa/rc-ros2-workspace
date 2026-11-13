@@ -1,0 +1,31 @@
+# ===== ROS2 / Python =====
+build/
+install/
+log/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+catkin_ws/
+
+# ===== STM32 / Keil / CubeMX（可由 .ioc 重新生成）=====
+lower_computer/Drivers/
+lower_computer/*.o
+lower_computer/*.axf
+lower_computer/*.hex
+lower_computer/*.bin
+lower_computer/Listing/
+lower_computer/Objects/
+lower_computer/JLinkLog/
+lower_computer/*.dep
+lower_computer/*.crf
+lower_computer/*.htm
+lower_computer/*.bak
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
